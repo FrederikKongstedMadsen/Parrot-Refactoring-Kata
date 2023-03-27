@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace Parrot
 {
-    abstract public class Parrot
+    public abstract class Parrot
     {
-	    abstract public double GetSpeed();
+	    public abstract double GetSpeed();
 
         protected double GetBaseSpeed(double voltage)
         {
